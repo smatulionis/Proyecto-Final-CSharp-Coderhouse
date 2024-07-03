@@ -1,0 +1,61 @@
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\SistemaG.92EE484C.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\refint\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionData\obj\Debug\net6.0\ref\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\SistemaG.92EE484C.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\refint\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionData\obj\Debug\net6.0\ref\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaG.92EE484C.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\refint\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\ref\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.sourcelink.json
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaG.92EE484C.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\refint\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\ref\SistemaGestionData.dll

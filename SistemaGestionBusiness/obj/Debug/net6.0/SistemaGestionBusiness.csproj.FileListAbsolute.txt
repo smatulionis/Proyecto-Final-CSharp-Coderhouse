@@ -1,0 +1,69 @@
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\SistemaG.30164F5D.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\refint\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\obj\Debug\net6.0\ref\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\SistemaG.30164F5D.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\refint\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Desafios\Desafio3\SistemaGestionBusiness\obj\Debug\net6.0\ref\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaG.30164F5D.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\refint\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\ref\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto_Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.sourcelink.json
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionBusiness.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaG.30164F5D.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\refint\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\ref\SistemaGestionBusiness.dll
