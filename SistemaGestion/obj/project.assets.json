@@ -146,47 +146,6 @@
             "rid": "win"
           }
         }
-      },
-      "SistemaGestionBusiness/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "SistemaGestionData": "1.0.0",
-          "SistemaGestionEntities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SistemaGestionBusiness.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaGestionBusiness.dll": {}
-        }
-      },
-      "SistemaGestionData/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "SistemaGestionEntities": "1.0.0",
-          "System.Data.SqlClient": "4.8.6"
-        },
-        "compile": {
-          "bin/placeholder/SistemaGestionData.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaGestionData.dll": {}
-        }
-      },
-      "SistemaGestionEntities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "System.Data.SqlClient": "4.8.6"
-        },
-        "compile": {
-          "bin/placeholder/SistemaGestionEntities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SistemaGestionEntities.dll": {}
-        }
       }
     }
   },
@@ -503,27 +462,12 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "SistemaGestionBusiness/1.0.0": {
-      "type": "project",
-      "path": "../SistemaGestionBusiness/SistemaGestionBusiness.csproj",
-      "msbuildProject": "../SistemaGestionBusiness/SistemaGestionBusiness.csproj"
-    },
-    "SistemaGestionData/1.0.0": {
-      "type": "project",
-      "path": "../SistemaGestionData/SistemaGestionData.csproj",
-      "msbuildProject": "../SistemaGestionData/SistemaGestionData.csproj"
-    },
-    "SistemaGestionEntities/1.0.0": {
-      "type": "project",
-      "path": "../SistemaGestionEntities/SistemaGestionEntities.csproj",
-      "msbuildProject": "../SistemaGestionEntities/SistemaGestionEntities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "SistemaGestionBusiness >= 1.0.0",
-      "SistemaGestionEntities >= 1.0.0",
+      "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionBusiness\\SistemaGestionBusiness.csproj",
+      "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
       "System.Data.SqlClient >= 4.8.6"
     ]
   },
@@ -533,11 +477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto_Final\\SistemaGestion\\SistemaGestionUI.csproj",
+      "projectUniqueName": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestion\\SistemaGestionUI.csproj",
       "projectName": "SistemaGestionUI",
-      "projectPath": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto_Final\\SistemaGestion\\SistemaGestionUI.csproj",
+      "projectPath": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestion\\SistemaGestionUI.csproj",
       "packagesPath": "C:\\Users\\smatu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto_Final\\SistemaGestion\\obj\\",
+      "outputPath": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\smatu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -554,11 +498,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto_Final\\SistemaGestionBusiness\\SistemaGestionBusiness.csproj": {
-              "projectPath": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto_Final\\SistemaGestionBusiness\\SistemaGestionBusiness.csproj"
+            "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionBusiness\\SistemaGestionBusiness.csproj": {
+              "projectPath": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionBusiness\\SistemaGestionBusiness.csproj"
             },
-            "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto_Final\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
-              "projectPath": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto_Final\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+            "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+              "projectPath": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
             }
           }
         }
@@ -605,5 +549,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "No se encuentra información del proyecto para \"C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionBusiness\\SistemaGestionBusiness.csproj\". Si está usando Visual Studio, puede deberse a que el proyecto no se haya cargado o no forme parte de la solución actual, por lo que debe ejecutar una restauración desde la línea de comandos. De lo contrario, puede que el archivo del proyecto no sea válido o que falten destinos necesarios para la restauración.",
+      "libraryId": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionBusiness\\SistemaGestionBusiness.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "No se encuentra información del proyecto para \"C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionEntities\\SistemaGestionEntities.csproj\". Si está usando Visual Studio, puede deberse a que el proyecto no se haya cargado o no forme parte de la solución actual, por lo que debe ejecutar una restauración desde la línea de comandos. De lo contrario, puede que el archivo del proyecto no sea válido o que falten destinos necesarios para la restauración.",
+      "libraryId": "C:\\Users\\smatu\\Documents\\Coderhouse\\C#\\Proyecto Final\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

@@ -131,3 +131,4 @@ C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\obj\Debu
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\obj\Debug\net6.0\SistemaGestionAPI.pdb
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\obj\Debug\net6.0\SistemaGestionAPI.genruntimeconfig.cache
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\obj\Debug\net6.0\ref\SistemaGestionAPI.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\obj\Debug\net6.0\SistemaGestionAPI.sourcelink.json
