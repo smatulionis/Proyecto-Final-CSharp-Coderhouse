@@ -45,8 +45,11 @@ Para configurar y ejecutar el proyecto, sigue los siguientes pasos:
 Clonar el repositorio:
 - git clone https://github.com/smatulionis/Proyecto-Final-CSharp-Coderhouse.git
 
-Ejecutar el proyecto y acceder a Swagger:
-- Ejecuta la solución del proyecto contenida en la carpeta Sistema Gestion. Swagger se abrirá automáticamente en tu navegador para ver la documentación y probar la API.
+Ejecutar el proyecto:  
+- Utilizar Visual Studio 2022. En el Explorador de soluciones hacer click derecho sobre el proyecto SistemaGestionAPI y luego en "Establecer como proyecto de inicio". Por último, ejecutar el proyecto.
+
+Acceder a Swagger:
+- Swagger se abrirá automáticamente en tu navegador para ver la documentación y probar la API.
 
 ## Contacto
 Si tienes alguna pregunta, sugerencia o comentario sobre este proyecto, puedes contactarme por correo electrónico a [smatulionis@live.com.ar](mailto:smatulionis@live.com.ar) o a través de mi perfil de Linkedin en [Sebastián Ezequiel Matulionis](https://www.linkedin.com/in/smatulionisdesarrollosoftware/).
