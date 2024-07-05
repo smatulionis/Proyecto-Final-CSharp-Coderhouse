@@ -22,7 +22,7 @@ El proyecto está compuesto por las siguientes capas:
 - **Data**: Maneja la interacción con la base de datos utilizando ADO.NET.
 - **Entities**: Define las entidades que representan los modelos de datos.
 
-Endpoints
+## Endpoints
 Como ejemplo se listan algunos de los endpoints de la API, en este caso los correspondientes a los productos:
 
 - `GET /api/producto/{id}`: Obtener un producto por su ID.
