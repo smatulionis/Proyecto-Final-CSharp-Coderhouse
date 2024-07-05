@@ -49,4 +49,4 @@ Ejecutar el proyecto y acceder a Swagger:
 - Ejecuta la solución del proyecto contenida en la carpeta Sistema Gestion. Swagger se abrirá automáticamente en tu navegador para ver la documentación y probar la API.
 
 ## Contacto
-Si tienes alguna pregunta, sugerencia o comentario sobre este proyecto, puedes contactarme por correo electrónico a [smatulionis@live.com.ar](mailto:smatulionis@live.com.ar) o a través de mi perfil de Linkedin en [Sebastián Ezequiel Matulionis](https://www.linkedin.com/in/smatulionis/).
+Si tienes alguna pregunta, sugerencia o comentario sobre este proyecto, puedes contactarme por correo electrónico a [smatulionis@live.com.ar](mailto:smatulionis@live.com.ar) o a través de mi perfil de Linkedin en [Sebastián Ezequiel Matulionis](https://www.linkedin.com/in/smatulionisdesarrollosoftware/).
