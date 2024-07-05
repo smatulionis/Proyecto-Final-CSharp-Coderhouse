@@ -43,10 +43,10 @@ Como ejemplo se listan algunos de los endpoints de la API, en este caso los corr
 Para configurar y ejecutar el proyecto, sigue los siguientes pasos:
 
 Clonar el repositorio:
-git clone https://github.com/smatulionis/Proyecto-Final-CSharp-Coderhouse.git
+- git clone https://github.com/smatulionis/Proyecto-Final-CSharp-Coderhouse.git
 
 Ejecutar el proyecto y acceder a Swagger:
-Ejecuta la solución del proyecto contenida en la carpeta Sistema Gestion. Swagger se abrirá automáticamente en tu navegador para ver la documentación y probar la API.
+- Ejecuta la solución del proyecto contenida en la carpeta Sistema Gestion. Swagger se abrirá automáticamente en tu navegador para ver la documentación y probar la API.
 
 ## Contacto
 Si tienes alguna pregunta, sugerencia o comentario sobre este proyecto, puedes contactarme por correo electrónico a [smatulionis@live.com.ar](mailto:smatulionis@live.com.ar) o a través de mi perfil de Linkedin en [Sebastián Ezequiel Matulionis](https://www.linkedin.com/in/smatulionis/).
