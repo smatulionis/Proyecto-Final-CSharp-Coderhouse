@@ -25,11 +25,11 @@ El proyecto está compuesto por las siguientes capas:
 ## Endpoints
 Como ejemplo se listan algunos de los endpoints de la API, en este caso los correspondientes a los productos:
 
-- `GET /api/producto/{id}`: Obtener un producto por su ID.
-- `GET /api/producto`: Obtener todos los productos.
-- `POST /api/producto`: Crear un nuevo producto.
-- `PUT /api/producto/{id}`: Actualizar un producto existente.
-- `DELETE /api/producto/{id}`: Eliminar un producto por su ID.
+- `GET /api/Producto/{id}`: Obtener un producto por su ID.
+- `GET /api/Producto`: Obtener todos los productos.
+- `POST /api/Producto`: Crear un nuevo producto.
+- `PUT /api/Producto/{id}`: Actualizar un producto existente.
+- `DELETE /api/Producto/{id}`: Eliminar un producto por su ID.
 
 ## Tecnologías utilizadas
 
