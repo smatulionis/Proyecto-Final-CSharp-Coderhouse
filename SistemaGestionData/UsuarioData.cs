@@ -12,10 +12,9 @@ namespace SistemaGestionData
     {
         public static Usuario TraerUsuario(int idUsuario)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = "SELECT Id, Nombre, Apellido, NombreUsuario, Contraseña, Mail FROM Usuario WHERE Id=@idUsuario";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -52,10 +51,9 @@ namespace SistemaGestionData
         public static List<Usuario> ListarUsuarios()
         {
             List<Usuario> lista = new List<Usuario>();
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = "SELECT Id, Nombre, Apellido, NombreUsuario, Contraseña, Mail FROM Usuario";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -89,10 +87,9 @@ namespace SistemaGestionData
 
         public static void CrearUsuario(Usuario usuario)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = "INSERT INTO Usuario (Nombre, Apellido, NombreUsuario, Contraseña, Mail) VALUES(@Nombre, @Apellido, @NombreUsuario, @Contraseña, @Mail)";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -116,10 +113,9 @@ namespace SistemaGestionData
 
         public static void ModificarUsuario(int id, Usuario usuario)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = "UPDATE Usuario SET Nombre = @Nombre, Apellido = @Apellido, NombreUsuario = @NombreUsuario, Contraseña = @Contraseña, Mail = @Mail WHERE Id = @Id";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -144,9 +140,8 @@ namespace SistemaGestionData
 
         public static void EliminarUsuario(int idUsuario)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 SqlTransaction transaction = null;
                 try

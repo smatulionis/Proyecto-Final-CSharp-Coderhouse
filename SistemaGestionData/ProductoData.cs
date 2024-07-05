@@ -8,14 +8,18 @@ using System.Data.SqlClient;
 
 namespace SistemaGestionData
 {
+    public static class DatabaseConfig
+    {
+        public static readonly string ConnectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
+    }
+
     public static class ProductoData
     {
         public static Producto ObtenerProducto(int idProducto)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = "SELECT Id, Descripcion, Costo, PrecioVenta, Stock, IdUsuario FROM Producto WHERE Id=@idProducto";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -52,10 +56,9 @@ namespace SistemaGestionData
         public static List<Producto> TraerProductos()
         {
             List<Producto> lista = new List<Producto>();
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = "SELECT Id, Descripcion, Costo, PrecioVenta, Stock, IdUsuario FROM Producto";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -89,10 +92,9 @@ namespace SistemaGestionData
 
         public static void CrearProducto(Producto producto)
         {          
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = "INSERT INTO Producto (Descripcion, Costo, PrecioVenta, Stock, IdUsuario) VALUES(@Descripcion, @Costo, @PrecioVenta, @Stock, @IdUsuario)";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -116,10 +118,9 @@ namespace SistemaGestionData
 
         public static void ModificarProducto(int id, Producto producto)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = "UPDATE Producto SET Descripcion = @Descripcion, Costo = @Costo, PrecioVenta = @PrecioVenta, Stock = @Stock, IdUsuario = @IdUsuario WHERE Id = @Id";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -144,9 +145,8 @@ namespace SistemaGestionData
 
         public static void EliminarProducto(int idProducto)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 SqlTransaction transaction = null;
                 try

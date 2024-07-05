@@ -12,7 +12,6 @@ namespace SistemaGestionData
     {
         public static Venta ObtenerVenta(int idVenta)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = @"
                 SELECT 
                     v.Id AS VentaId,
@@ -27,7 +26,7 @@ namespace SistemaGestionData
                 WHERE v.Id = @idVenta
             ";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -78,7 +77,6 @@ namespace SistemaGestionData
         public static List<Venta> TraerVentas()
         {
             List<Venta> lista = new List<Venta>();
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
             string query = @"
                 SELECT 
                     v.Id AS VentaId,
@@ -92,7 +90,7 @@ namespace SistemaGestionData
                 INNER JOIN ProductoVendido pv ON v.Id = pv.IdVenta
             ";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 try
                 {
@@ -141,14 +139,13 @@ namespace SistemaGestionData
 
         public static void EliminarVenta(int idVenta)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
 
             string obtenerProductosVendidosQuery = "SELECT IdProducto, Stock FROM ProductoVendido WHERE IdVenta = @IdVenta";
             string eliminarProductosVendidosQuery = "DELETE FROM ProductoVendido WHERE IdVenta = @IdVenta";
             string sumarStockQuery = "UPDATE Producto SET Stock = Stock + @Cantidad WHERE Id = @IdProducto";
             string eliminarVentaQuery = "DELETE FROM Venta WHERE Id = @Id";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 conexion.Open();
                 SqlTransaction transaction = conexion.BeginTransaction();
@@ -207,14 +204,13 @@ namespace SistemaGestionData
 
         public static void CargarVenta(List<ProductoVendido> productos, int idUsuario)
         {
-            string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
 
             int nuevaVentaId;
             string insertVentaQuery = "INSERT INTO Venta (Comentarios, IdUsuario) VALUES(@Comentarios, @IdUsuario); SELECT SCOPE_IDENTITY();";
             string insertProductosVendidosQuery = "INSERT INTO ProductoVendido (Stock, IdProducto, IdVenta) VALUES(@Stock, @IdProducto, @IdVenta);";
             string actualizarStockQuery = "UPDATE Producto SET Stock = Stock - @Cantidad WHERE Id = @IdProducto;";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
                 conexion.Open();
                 SqlTransaction transaction = conexion.BeginTransaction();

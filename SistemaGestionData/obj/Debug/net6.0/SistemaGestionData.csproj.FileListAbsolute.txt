@@ -59,3 +59,4 @@ C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Deb
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\refint\SistemaGestionData.dll
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.pdb
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\ref\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.sourcelink.json

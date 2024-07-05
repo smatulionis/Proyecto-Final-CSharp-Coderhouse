@@ -67,3 +67,4 @@ C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\refint\SistemaGestionBusiness.dll
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.pdb
 C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\ref\SistemaGestionBusiness.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\obj\Debug\net6.0\SistemaGestionBusiness.sourcelink.json
