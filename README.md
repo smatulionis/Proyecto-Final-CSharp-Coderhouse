@@ -17,10 +17,10 @@ Este proyecto es una API para gestionar productos, usuarios, productos vendidos 
 ## Estructura del proyecto
 El proyecto está compuesto por las siguientes capas:
 
-Controllers: Maneja las solicitudes HTTP y devuelve respuestas a los clientes.
-Business: Contiene la lógica de negocio y las reglas para gestionar los productos, usuarios, productos vendidos y ventas.
-Data: Maneja la interacción con la base de datos utilizando ADO.NET.
-Entities: Define las entidades que representan los modelos de datos.
+`Controllers`: Maneja las solicitudes HTTP y devuelve respuestas a los clientes.
+`Business`: Contiene la lógica de negocio y las reglas para gestionar los productos, usuarios, productos vendidos y ventas.
+`Data`: Maneja la interacción con la base de datos utilizando ADO.NET.
+`Entities`: Define las entidades que representan los modelos de datos.
 
 Endpoints
 Como ejemplo se listan algunos de los endpoints de la API, en este caso los correspondientes a los productos:
