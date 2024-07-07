@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaGestionBusiness
-build_property.ProjectDir = C:\Users\smatu\Documents\Coderhouse\C#\1ra_Preentrega\SistemaGestionBusiness\
+build_property.ProjectDir = C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionBusiness\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

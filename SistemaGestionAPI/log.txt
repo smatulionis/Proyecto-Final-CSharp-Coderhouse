@@ -1,0 +1,70 @@
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7097
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5091
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7097
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5091
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\
+Iniciando eliminación del usuario 19
+Ventas a eliminar para el usuario 19: 27
+Iniciando eliminación de la venta 27
+Venta 27 eliminada con éxito
+Usuario 19 eliminado con éxito
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7097
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5091
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7097
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5091
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\
+Iniciando eliminación del usuario 20
+Ventas a eliminar para el usuario 20: 28
+Iniciando eliminación de la venta 28
+Venta 28 eliminada con éxito
+Usuario 20 eliminado con éxito
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7097
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5091
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\
+Iniciando eliminación del usuario 21
+Ventas a eliminar para el usuario 21: 29
+Iniciando eliminación de la venta 29
+Venta 29 eliminada con éxito
+Usuario 21 eliminado con éxito
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7097
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5091
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\
+Iniciando eliminación del usuario 22
+Ventas a eliminar para el usuario 22: 30
+Iniciando eliminación de la venta 30
+Venta 30 eliminada con éxito
+Usuario 22 eliminado con éxito
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7097
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5091
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\
+Iniciando eliminación del usuario 23
+Ventas a eliminar para el usuario 23: 31
+Iniciando eliminación de la venta 31
+Venta 31 eliminada con éxito
+Usuario 23 eliminado con éxito
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7097
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5091
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionAPI\
+Iniciando eliminación del usuario 24
+Ventas a eliminar para el usuario 24: 32
+Iniciando eliminación de la venta 32
+Venta 32 eliminada con éxito
+Usuario 24 eliminado con éxito

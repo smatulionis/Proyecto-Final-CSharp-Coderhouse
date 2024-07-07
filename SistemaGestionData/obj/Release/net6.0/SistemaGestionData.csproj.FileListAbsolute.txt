@@ -1,0 +1,16 @@
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Release\net6.0\SistemaGestionData.deps.json
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Release\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Release\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Release\net6.0\SistemaGestionEntities.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\bin\Release\net6.0\SistemaGestionEntities.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaGestionData.csproj.AssemblyReference.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaGestionData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaGestionData.AssemblyInfoInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaGestionData.AssemblyInfo.cs
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaGestionData.csproj.CoreCompileInputs.cache
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaGestionData.sourcelink.json
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaG.92EE484C.Up2Date
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\refint\SistemaGestionData.dll
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\SistemaGestionData.pdb
+C:\Users\smatu\Documents\Coderhouse\C#\Proyecto Final\SistemaGestionData\obj\Release\net6.0\ref\SistemaGestionData.dll

@@ -140,38 +140,65 @@ namespace SistemaGestionData
 
         public static void EliminarUsuario(int idUsuario)
         {
+            string obtenerVentasQuery = "SELECT Id FROM Venta WHERE IdUsuario = @IdUsuario";
+            string eliminarProductoQuery = "DELETE FROM Producto WHERE IdUsuario = @IdUsuario";
+            string eliminarUsuarioQuery = "DELETE FROM Usuario WHERE Id = @Id";
 
             using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
             {
-                SqlTransaction transaction = null;
+                conexion.Open();
+                SqlTransaction transaction = conexion.BeginTransaction();
+
                 try
                 {
-                    conexion.Open();
-                    transaction = conexion.BeginTransaction();
 
-                    using (SqlCommand comandoProducto = new SqlCommand("DELETE FROM Producto WHERE IdUsuario = @IdUsuario", conexion, transaction))
+                    List<int> ventasIds = new List<int>();
+                    using (SqlCommand comando = new SqlCommand(obtenerVentasQuery, conexion, transaction))
+                    {
+                        comando.Parameters.Add(new SqlParameter("IdUsuario", SqlDbType.BigInt) { Value = idUsuario });
+
+                        using (SqlDataReader dr = comando.ExecuteReader())
+                        {
+                            while (dr.Read())
+                            {
+                                ventasIds.Add(Convert.ToInt32(dr["Id"]));
+                            }
+                        }
+                    }
+
+                    foreach (var idVenta in ventasIds)
+                    {
+                        VentaData.EliminarVenta(idVenta, conexion, transaction);
+                    }
+
+                    using (SqlCommand comandoProducto = new SqlCommand(eliminarProductoQuery, conexion, transaction))
                     {
                         comandoProducto.Parameters.Add(new SqlParameter("IdUsuario", SqlDbType.BigInt) { Value = idUsuario });
                         comandoProducto.ExecuteNonQuery();
                     }
 
-                    using (SqlCommand comandoUsuario = new SqlCommand("DELETE FROM Usuario WHERE Id = @Id", conexion, transaction))
+                    using (SqlCommand comando = new SqlCommand(eliminarUsuarioQuery, conexion, transaction))
                     {
-                        comandoUsuario.Parameters.Add(new SqlParameter("Id", SqlDbType.BigInt) { Value = idUsuario });
-                        comandoUsuario.ExecuteNonQuery();
+                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.BigInt) { Value = idUsuario });
+                        comando.ExecuteNonQuery();
                     }
 
                     transaction.Commit();
                 }
                 catch (Exception ex)
                 {
-                    if (transaction != null)
-                    {
-                        transaction.Rollback();
-                    }
+                    transaction.Rollback();
                     throw new Exception("Error al eliminar el usuario", ex);
                 }
             }
         }
+
+
+
+
+
+
+
+
     }
 }

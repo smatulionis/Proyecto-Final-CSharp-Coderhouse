@@ -137,67 +137,85 @@ namespace SistemaGestionData
             return lista;
         }
 
-        public static void EliminarVenta(int idVenta)
+        public static void EliminarVenta(int idVenta, SqlConnection conexion = null, SqlTransaction transaction = null)
         {
+            bool localConnection = false;
 
-            string obtenerProductosVendidosQuery = "SELECT IdProducto, Stock FROM ProductoVendido WHERE IdVenta = @IdVenta";
-            string eliminarProductosVendidosQuery = "DELETE FROM ProductoVendido WHERE IdVenta = @IdVenta";
-            string sumarStockQuery = "UPDATE Producto SET Stock = Stock + @Cantidad WHERE Id = @IdProducto";
-            string eliminarVentaQuery = "DELETE FROM Venta WHERE Id = @Id";
-
-            using (SqlConnection conexion = new SqlConnection(DatabaseConfig.ConnectionString))
+            if (conexion == null)
             {
+                conexion = new SqlConnection(DatabaseConfig.ConnectionString);
                 conexion.Open();
-                SqlTransaction transaction = conexion.BeginTransaction();
+                transaction = conexion.BeginTransaction();
+                localConnection = true;
+            }
 
-                try
+            try
+            {
+
+                string obtenerProductosVendidosQuery = "SELECT IdProducto, Stock FROM ProductoVendido WHERE IdVenta = @IdVenta";
+                string eliminarProductosVendidosQuery = "DELETE FROM ProductoVendido WHERE IdVenta = @IdVenta";
+                string sumarStockQuery = "UPDATE Producto SET Stock = Stock + @Cantidad WHERE Id = @IdProducto";
+                string eliminarVentaQuery = "DELETE FROM Venta WHERE Id = @Id";
+
+                List<ProductoVendido> productosVendidos = new List<ProductoVendido>();
+
+                using (SqlCommand comando = new SqlCommand(obtenerProductosVendidosQuery, conexion, transaction))
                 {
-                    List<ProductoVendido> productosVendidos = new List<ProductoVendido>();
-                    using (SqlCommand comando = new SqlCommand(obtenerProductosVendidosQuery, conexion, transaction))
-                    {
-                        comando.Parameters.Add(new SqlParameter("IdVenta", SqlDbType.BigInt) { Value = idVenta });
+                    comando.Parameters.Add(new SqlParameter("IdVenta", SqlDbType.BigInt) { Value = idVenta });
 
-                        using (SqlDataReader dr = comando.ExecuteReader())
+                    using (SqlDataReader dr = comando.ExecuteReader())
+                    {
+                        while (dr.Read())
                         {
-                            while (dr.Read())
+                            productosVendidos.Add(new ProductoVendido
                             {
-                                productosVendidos.Add(new ProductoVendido
-                                {
-                                    IdProducto = Convert.ToInt32(dr["IdProducto"]),
-                                    Cantidad = Convert.ToInt32(dr["Stock"])
-                                });
-                            }
+                                IdProducto = Convert.ToInt32(dr["IdProducto"]),
+                                Cantidad = Convert.ToInt32(dr["Stock"])
+                            });
                         }
                     }
+                }
 
-                    foreach (var producto in productosVendidos)
+                foreach (var producto in productosVendidos)
+                {
+                    using (SqlCommand comando = new SqlCommand(sumarStockQuery, conexion, transaction))
                     {
-                        using (SqlCommand comando = new SqlCommand(sumarStockQuery, conexion, transaction))
-                        {
-                            comando.Parameters.Add(new SqlParameter("Cantidad", SqlDbType.Int) { Value = producto.Cantidad });
-                            comando.Parameters.Add(new SqlParameter("IdProducto", SqlDbType.BigInt) { Value = producto.IdProducto });
-                            comando.ExecuteNonQuery();
-                        }
-                    }
-
-                    using (SqlCommand comando = new SqlCommand(eliminarProductosVendidosQuery, conexion, transaction))
-                    {
-                        comando.Parameters.Add(new SqlParameter("IdVenta", SqlDbType.BigInt) { Value = idVenta });
+                        comando.Parameters.Add(new SqlParameter("Cantidad", SqlDbType.Int) { Value = producto.Cantidad });
+                        comando.Parameters.Add(new SqlParameter("IdProducto", SqlDbType.BigInt) { Value = producto.IdProducto });
                         comando.ExecuteNonQuery();
                     }
+                }
 
-                    using (SqlCommand comando = new SqlCommand(eliminarVentaQuery, conexion, transaction))
-                    {
-                        comando.Parameters.Add(new SqlParameter("Id", SqlDbType.BigInt) { Value = idVenta });
-                        comando.ExecuteNonQuery();
-                    }
+                using (SqlCommand comando = new SqlCommand(eliminarProductosVendidosQuery, conexion, transaction))
+                {
+                    comando.Parameters.Add(new SqlParameter("IdVenta", SqlDbType.BigInt) { Value = idVenta });
+                    comando.ExecuteNonQuery();
+                }
 
+                using (SqlCommand comando = new SqlCommand(eliminarVentaQuery, conexion, transaction))
+                {
+                    comando.Parameters.Add(new SqlParameter("Id", SqlDbType.BigInt) { Value = idVenta });
+                    comando.ExecuteNonQuery();
+                }
+
+                if (localConnection)
+                {
                     transaction.Commit();
                 }
-                catch (Exception ex)
+            }
+            catch (Exception ex)
+            {
+                if (localConnection)
                 {
                     transaction.Rollback();
-                    throw new Exception("Error al eliminar la venta", ex);
+                }
+                throw new Exception("Error al eliminar la venta", ex);
+            }
+            finally
+            {
+                if (localConnection)
+                {
+                    conexion.Close();
                 }
             }
         }
