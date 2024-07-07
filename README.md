@@ -46,7 +46,8 @@ Clonar el repositorio:
 - git clone https://github.com/smatulionis/Proyecto-Final-CSharp-Coderhouse.git
 
 Ejecutar el proyecto:  
-- Utilizar Visual Studio 2022. En el Explorador de soluciones hacer click derecho sobre el proyecto SistemaGestionAPI y luego en "Establecer como proyecto de inicio". Por último, ejecutar el proyecto.
+- Utilizar Visual Studio 2022. Abrir el archivo "SistemaGestion.sln" que se encuentra en la carpeta SistemaGestion.
+- En el Explorador de soluciones hacer click derecho sobre el proyecto SistemaGestionAPI y luego en "Establecer como proyecto de inicio". Por último, ejecutar el proyecto.
 
 Acceder a Swagger:
 - Swagger se abrirá automáticamente en tu navegador para ver la documentación y probar la API.
